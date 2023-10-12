@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(47, 24, 147, 1);
+}
+
+.header {
+    position: relative;
+    width: 972px;
+    height: 40px;
+    top: 65px;
+    left: 213px;
+    /* border: 1px solid white; */
+}
+
+.parahead {
+    color: var(--colors-white, #FFF);
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.293px;
+    top: 10px;
+}
+
+.right {
+    width: 503px;
+    height: 40px;
+    top: -32px;
+    left: 540px;
+    position: relative;
+}
+
+.navbar {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    top: 7px;
+    position: relative;
+}
+
+nav a {
+    margin: 10px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.over {
+    opacity: 30%;
+}
+
+button {
+    border-radius: 100px;
+    width: 80px;
+    height: 30px;
+    background: rgba(233, 58, 125, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.middle {
+    top: 100px;
+    position: relative;
+    height: 490px;
+}
+
+.middleleft {
+    Width: 340px;
+    Height: 400px;
+    Top: 50px;
+    Left: 209px;
+    position: relative;
+}
+
+.middleleft,
+p {
+    font-family: DM Sans;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.para p {
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    width: 280px;
+    top: 18px;
+    position: relative;
+}
+
+.btns {
+    width: 107px;
+    height: 50px;
+    top: 30px;
+    left: 0px;
+    position: relative;
+}
+
+.btns button {
+    width: 103px;
+    height: 35px;
+    border-radius: 100px;
+    top: -10px;
+    position: relative;
+}
+
+.middleright {
+    width: 390px;
+    height: 490px;
+    top: 10px;
+    left: 755px;
+    position: absolute;
+    background-color: rgb(234, 234, 237);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup {
+    width: 247px;
+    height: 52px;
+    top: 35px;
+    position: relative;
+}
+
+h3 {
+    font-family: DM Sans;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgba(30, 14, 98, 1);
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 330px;
+    height: 50px;
+    position: relative;
+    top: 60px;
+    border: 2px solid rgb(213, 212, 214);
+    border-radius: 100px;
+    background-color: rgba(235, 234, 237, 1);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(21, 20, 57, 0.4);
+    padding-left: 12px;
+}
+
+.checkbox {
+    /* border: 1px solid green; */
+    top: 70px;
+    position: relative;
+    display: flex;
+}
+
+.chk {
+    left: 10px;
+    position: relative;
+}
+
+.checkbox p {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.signin {
+    top: 90px;
+    width: 330px;
+    height: 50px;
+    background: rgba(72, 43, 231, 1);
+    position: relative;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.signin p {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.or {
+    width: 320px;
+    height: 26px;
+    top: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.or p {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(21, 20, 57, 0.4);
+    margin-left: 10px;
+}
+
+.boxa {
+    height: 1px;
+    width: 145px;
+    border: 1px solid rgb(214, 214, 214);
+    position: relative;
+    margin-left: 10px;
+}
+
+.twitter {
+    top: 110px;
+    width: 330px;
+    height: 50px;
+    background: rgba(29, 161, 242, 1);
+    position: relative;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.twitter p {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.acc {
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    height: 34px;
+    top: 125px;
+    position: relative;
+    left: 6px;
+}
+
+.acc {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.acc p {
+    position: relative;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.acc a {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(37, 218, 197, 1);
+    cursor: pointer;
+}
